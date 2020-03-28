@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.title("Covid Portal")
-url = r"data.csv"
+url = r"./mapbase/mapbase/data.csv"
 dfa = pd.read_csv(url)
 st.write(dfa)
 
